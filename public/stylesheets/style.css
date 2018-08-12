@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #d67d16; }
+  body a, body h1, body h5 {
+    color: #87b80b; }
+  body p {
+    color: white; }
+  body .container {
+    background-color: #fbebbb;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 1em; }
+    body .container .card {
+      margin-bottom: 1em;
+      border: none; }
+      body .container .card .btn {
+        background-color: #87b80b;
+        border: #e74c3c; }
+      body .container .card .card-body {
+        background-color: #ebc694;
+        border-radius: 10px; }
+      body .container .card .actions form {
+        display: inline; }
+
+.jumbotron {
+  background-color: #ebc694; }
+
+/*# sourceMappingURL=style.css.map */

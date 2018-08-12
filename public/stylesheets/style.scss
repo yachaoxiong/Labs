@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$background: #d67d16;
+$button-colour: #e74c3c;
+
+body {
+  background-color: $background;
+    a,h1,h5{
+        color: #87b80b;
+    }
+    p{
+        color: white;
+        
+    }
+  .container {
+    background-color: #fbebbb;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 1em;
+
+    .card {
+      margin-bottom: 1em;
+        border: none;
+    
+      .btn {
+        background-color: #87b80b;
+        border: $button-colour;
+      }
+        .card-body{
+            background-color: #ebc694;
+            border-radius: 10px;
+        }
+      
+      .actions {
+        form {
+          display: inline;
+        }
+      }
+    }
+  }
+}
+  .jumbotron{
+            background-color: #ebc694;
+        }
